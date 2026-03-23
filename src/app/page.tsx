@@ -8,7 +8,6 @@ import Timeline from '@/components/main/Timeline'
 import { Toaster } from 'react-hot-toast'
 import { Metadata } from 'next'
 import CertificationsSection from '@/components/main/Certifications'
-import { AnalyticsDebug } from '@/components/analytics/AnalyticsDebug'
 import InteractiveWrapper from '@/components/main/InteractiveWrapper'
 
 export const metadata: Metadata = {
