@@ -16,10 +16,8 @@ const ResumeSection = () => {
 
   useEffect(() => {
     import('react-pdf').then(({ pdfjs }) => {
-      pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-        'pdfjs-dist/build/pdf.worker.min.mjs',
-        import.meta.url
-      ).toString()
+      pdfjs.GlobalWorkerOptions.workerSrc =
+        window.location.origin + '/pdf.worker.min.js'
     })
   }, [])
 
