@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'DevOps Best Practices 2024 - Complete Guide by Hasan Ashab',
-  description: 'Comprehensive guide to DevOps best practices including CI/CD, infrastructure as code, monitoring, and security. Learn from experienced DevOps engineer Hasan Ashab.',
+  title: 'DevOps Best Practices 2024 - Complete Guide by Zacharie KOUADINOU',
+  description: 'Comprehensive guide to DevOps best practices including CI/CD, infrastructure as code, monitoring, and security. Learn from experienced DevOps engineer Zacharie KOUADINOU.',
   keywords: [
     'devops best practices',
     'ci cd best practices',
@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     'devops automation'
   ],
   alternates: {
-    canonical: 'https://hasan-ashab.vercel.app/blog/devops-best-practices',
+    canonical: 'https://koudinouzacharieportfolio.vercel.app//blog/devops-best-practices',
   },
   openGraph: {
     title: 'DevOps Best Practices 2024 - Complete Guide',
     description: 'Comprehensive guide to DevOps best practices including CI/CD, infrastructure as code, monitoring, and security.',
     type: 'article',
     publishedTime: '2024-01-15T00:00:00.000Z',
-    authors: ['Hasan Ashab'],
+    authors: ['Zacharie KOUADINOU'],
   },
 }
 

@@ -17,30 +17,27 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Hasan Ashab - DevOps & Cloud Engineer Portfolio | AWS, Kubernetes, Docker',
+  title: 'Zacharie KOUADINOU - Backend Developer & Cybersecurity Analyst (Junior). | Cybersecurity, Backend Development, Tech Enthusiast ',
   description:
-    'Experienced DevOps and Cloud Engineer specializing in AWS, Kubernetes, Docker, and CI/CD. View my portfolio showcasing cloud infrastructure projects, automation solutions, and scalable deployments.',
+    '',
   keywords: [
-    'devops portfolio',
-    'cloud engineer portfolio', 
-    'devops engineer',
-    'cloud engineer',
-    'hasan ashab',
-    'hasan ashab portfolio',
+    'backend developer portfolio',
+    'cybersecurity analyst portfolio',
+    'backend developer',
+    'cybersecurity analyst',
+    'Zacharie KOUADINOU',
+    'Zacharie KOUADINOU portfolio',
     'portfolio website',
-    'aws devops',
-    'kubernetes engineer',
-    'docker specialist',
-    'ci cd pipeline',
-    'infrastructure automation',
-    'cloud architecture',
-    'terraform',
-    'ansible',
-    'jenkins'
+    'Security best practices',
+    'vulnerability assessment',
+    'penetration testing',
+    'incident response',
+    'network security',
+    'application security',
   ],
-  authors: [{ name: 'Hasan Ashab' }],
-  creator: 'Hasan Ashab',
-  publisher: 'Hasan Ashab',
+  authors: [{ name: 'Zacharie KOUADINOU' }],
+  creator: 'Zacharie KOUADINOU',
+  publisher: 'Zacharie KOUADINOU',
   robots: {
     index: true,
     follow: true,
@@ -55,28 +52,28 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://hasan-ashab.vercel.app',
-    title: 'Hasan Ashab - DevOps & Cloud Engineer Portfolio',
-    description: 'Experienced DevOps and Cloud Engineer specializing in AWS, Kubernetes, Docker, and CI/CD. View my portfolio showcasing cloud infrastructure projects.',
-    siteName: 'Hasan Ashab Portfolio',
+    url: 'https://koudinouzacharieportfolio.vercel.app/',
+    title: 'Zacharie KOUADINOU - Backend Developer & Cybersecurity Analyst (Junior) Portfolio',
+    description: 'Experienced Backend Developer and Cybersecurity Analyst (Junior) specializing in secure application development and cybersecurity practices. View my portfolio showcasing my skills and projects.',
+    siteName: 'Zacharie KOUADINOU Portfolio',
     images: [
       {
         url: '/zacharie-pic .jpg',
         width: 1200,
         height: 630,
-        alt: 'Hasan Ashab - DevOps & Cloud Engineer',
+        alt: 'Zacharie KOUADINOU - Backend Developer & Cybersecurity Analyst',
       },
     ],
   },
   // twitter: {
   //   card: 'summary_large_image',
-  //   title: 'Hasan Ashab - DevOps & Cloud Engineer Portfolio',
+  //   title: 'Zacharie KOUADINOU - DevOps & Cloud Engineer Portfolio',
   //   description: 'Experienced DevOps and Cloud Engineer specializing in AWS, Kubernetes, Docker, and CI/CD.',
   //   images: ['/zacharie-pic .jpg'],
   //   creator: '@hasanashab',
   // },
   alternates: {
-    canonical: 'https://hasan-ashab.vercel.app',
+    canonical: 'https://koudinouzacharieportfolio.vercel.app/',
   },
   verification: {
     google: 'wUvigUYIHyBvrQMmeBFTg5ixr4HDAdPcPPlyPJSzmc0',
@@ -91,14 +88,14 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Hasan Ashab',
-    jobTitle: 'DevOps & Cloud Engineer',
-    description: 'Experienced DevOps and Cloud Engineer specializing in AWS, Kubernetes, Docker, and CI/CD automation',
-    url: 'https://hasan-ashab.vercel.app',
-    image: 'https://hasan-ashab.vercel.app/profile-pic.jpg',
+    name: 'Zacharie KOUADINOU',
+    jobTitle: 'Backend Developer & Cybersecurity Analyst (Junior)',
+    description: 'Experienced Backend Developer and Cybersecurity Analyst (Junior) specializing in secure application development and cybersecurity practices',
+    url: 'https://koudinouzacharieportfolio.vercel.app/',
+    image: 'https://koudinouzacharieportfolio.vercel.app//profile-pic.jpg',
     sameAs: [
-      'https://github.com/HasanAshab',
-      'https://linkedin.com/in/hasan-ashab',
+      'https://github.com/kouadinouzacharie',
+      'https://linkedin.com/in/kouadinou-zacharie',
     ],
     knowsAbout: [
       'DevOps',
@@ -127,7 +124,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <link rel="canonical" href="https://hasan-ashab.vercel.app" />
+        <link rel="canonical" href="https://koudinouzacharieportfolio.vercel.app/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#3b82f6" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#1e40af" media="(prefers-color-scheme: dark)" />

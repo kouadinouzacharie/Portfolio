@@ -12,9 +12,9 @@ import InteractiveWrapper from '@/components/main/InteractiveWrapper'
 
 export const metadata: Metadata = {
   title: 'Zacharie KOUADINOU - Backend Developer & Cybersecurity Analyst (Junior)',
-  description: 'Professional DevOps and Cloud Engineer portfolio showcasing expertise in AWS, Kubernetes, Docker, CI/CD pipelines, and infrastructure automation. View my projects and experience.',
+  description: 'Welcome to my professional portfolio. I am a Backend Developer and Cybersecurity Analyst (Junior) with expertise in building secure and scalable applications. Explore my projects, skills, and experience in backend development and cybersecurity.',
   alternates: {
-    canonical: 'https://hasan-ashab.vercel.app',
+    canonical: 'https://koudinouzacharieportfolio.vercel.app/',
   },
 }
 

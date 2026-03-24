@@ -83,7 +83,7 @@ const Skills = () => {
           Technical Skills
         </h2>
         <p className="text-lg text-muted-foreground font-medium">
-          A curated selection of my expertise in DevOps and Cloud Computing
+          A showcase of my core competencies and expertise in backend development, cybersecurity, and related technologies.
         </p>
       </motion.div>
 
